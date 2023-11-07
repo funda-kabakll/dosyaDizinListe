@@ -26,7 +26,7 @@ class BaslikOku:
                     break
 
             if ilk_sayfa_baslik:
-                basliklar.append(f"PDF Başlığı ({pdf_dosya}):\n{ilk_sayfa_baslik}\n\n")
+                basliklar.append(f"PDF Başlığı ({pdf_dosya}):\n{ilk_sayfa_baslik}\n")
             else:
                 basliklar.append(f"{pdf_dosya} Başlık bulunamadı\n\n")
 
