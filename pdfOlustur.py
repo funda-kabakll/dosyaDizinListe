@@ -4,7 +4,7 @@ from reportlab.lib.styles import getSampleStyleSheet
 from reportlab.lib.enums import TA_CENTER
 from baslikOku import BaslikOku  # 'baslikOku' modülünden BaslikOku sınıfını içe aktar
 
-def pdfOlustur():
+def pdf_olustur():
     # PDF dosyasının adını ve yolu belirleyin
     hedef_pdf_adi = "yeni_pdf.pdf"
 

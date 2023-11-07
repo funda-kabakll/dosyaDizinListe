@@ -1,7 +1,7 @@
 import time
 from klasorOku import KlasorOku
 from baslikOku import BaslikOku
-from pdfOlustur import pdfOlustur
+from pdfOlustur import pdf_olustur
 
 
 print("~ Pdf Okuma Programına Hoş Geldiniz ~")
@@ -18,13 +18,11 @@ while True:
         break
     elif menuSecim == 1:
         klasor_oku = KlasorOku()
-        klasor_oku.okuHadi()
+        klasor_oku.oku_hadi()
     elif menuSecim == 2:
         klasor_yolu = 'klasor'
         basliklar = BaslikOku.pdf_oku(klasor_yolu)
         for baslik in basliklar:
             print(baslik)
     elif menuSecim == 3:
-        pdfOlustur()
-
-
+        pdf_olustur()

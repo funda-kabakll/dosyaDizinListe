@@ -1,7 +1,9 @@
 import os
 class KlasorOku:
-    def okuHadi(self):
-        klasorAdı = input("Klasörün yolunu giriniz: ")
-        nedirbu = os.listdir(klasorAdı)
-        for dosyalar in nedirbu:
+    @staticmethod
+    def oku_hadi():
+        klasor_adi = input("Klasörün yolunu giriniz: ").encode('utf-8')
+        nedir_bu = os.listdir(klasor_adi.decode('utf-8'))
+
+        for dosyalar in nedir_bu:
             print(dosyalar)
