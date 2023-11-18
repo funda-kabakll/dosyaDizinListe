@@ -5,3 +5,4 @@ def klasor_oku():
 
         for dosyalar in nedir_bu:
             print(dosyalar)
+

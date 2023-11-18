@@ -3,7 +3,6 @@ from klasorOku import klasor_oku
 from baslikOku import BaslikOku
 from pdfOlustur import pdf_olustur
 
-
 print("~ Pdf Okuma Programına Hoş Geldiniz ~")
 print(" |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|")
 print("")

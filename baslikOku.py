@@ -31,3 +31,4 @@ class BaslikOku:
                 basliklar.append(f"{pdf_dosya} Başlık bulunamadı\n\n")
 
         return basliklar
+
