@@ -19,7 +19,7 @@ class BaslikOku:
 
             for satir in satirlar:
                 # İstenmeyen karakterleri veya soyisimleri filtrele
-                if "-" in satir or "(" in satir or "/" in satir or "Tonta" in satir or "Şencan" in satir:
+                if "-" in satir or "(" in satir or "/" in satir :
                     continue
                 if satir.strip():
                     ilk_sayfa_baslik = satir

@@ -1,5 +1,5 @@
 import time
-from klasorOku import KlasorOku
+from klasorOku import klasor_oku
 from baslikOku import BaslikOku
 from pdfOlustur import pdf_olustur
 
@@ -17,8 +17,7 @@ while True:
         time.sleep(1)
         break
     elif menuSecim == 1:
-        klasor_oku = KlasorOku()
-        klasor_oku.oku_hadi()
+        klasor_oku()
     elif menuSecim == 2:
         klasor_yolu = 'klasor'
         basliklar = BaslikOku.pdf_oku(klasor_yolu)
